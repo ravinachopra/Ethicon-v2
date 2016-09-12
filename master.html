@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Ethicon</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->		
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script>
+		$(document).ready(function() {			
+			$('.nav-link-wrapper a').click(function () {
+				$('html, body').animate({
+					scrollTop: $($(this).attr('href')).offset().top
+				}, 500);
+				return false;
+			});
+        });
+		</script>
+        	
+	</head>
+	<body>
+	<div class="promotional-offers">
+		<div class="offer-heading">
+			<p>offer headline for promotion</p>
+			<p><a href="#">get offer details</a></p>
+		</div>
+		<div class="close-button">
+			<img src="img/offer-close.png" alt="Close"/>
+		</div>
+	</div>
+		<header>
+            <div class="container">
+                <div class="logo-wrapper">
+                    <img src="img/logo.png" class="img-responsive" alt="Ethicon"/>
+                </div><!-- .logo-wrapper end -->
+                <div class="navigation-menu-wrapper clearfix">
+                    <ul>
+                        <li>
+                            <div class="nav-link-wrapper">
+	                            <span>
+	                               <a href="#">                                   
+	                                    <span>Products</span>
+	                                </a>
+	                            </span>
+                            </div><!-- .nav-link-wrapper end -->
+
+                        </li>
+                        <li>
+                            <div class="nav-link-wrapper">
+                              	<span>
+	                             <a href="#">                                   
+	                                    <span>Formulary builder</span>
+	                                </a>
+	                            </span>
+                            </div><!-- .nav-link-wrapper end -->
+                        </li>
+                        <li>
+                            <div class="nav-link-wrapper">
+                                 <span>
+                                 <a href="#">                                   
+                                    <span>Suture selector +</span>
+                                </a>
+                                </span>
+                            </div><!-- .nav-link-wrapper end -->
+                        </li>
+                    </ul>
+                </div><!-- .navigation-menu-wrapper end -->
+            </div><!-- .container end -->
+        </header>
+       
+		 
+        <footer>
+            <div class="container">
+                <div class="footer-references">
+                	<p class="references-heading">reference</p>
+                	<ol class="references-list">
+                		<li>Nelson, L.L. 2011. "Surgical site infections in small animal surgery." Vet. Clin. North Am. Small Anim. Pract. 41.5: 1041-1056.</li>
+                	</ol>
+
+                </div><!-- .footer-references end -->
+                <div class="footer-copyright">
+                    <p>&copy; 2016 El Lilly and Company, its subsidiaries or affiliates. 
+Elanco and the diagonal bar se trademarks owned or licensed by El Lilly and Company, its subsidiares or affiliates. ETHALLOY,
+ETHICON, ETHILON, MONOCRYL, PDS, PROLENE and VICRYL are registered trademarks, and VICRYL RAPIDE Is a trademark of
+Ethicon US, LLC. USCAHMULO1544
+                    </p>
+                </div><!-- .footer-part-4 end -->
+                  <div class="footer-links-panel">
+                	<ul>
+                    	<li><a href="https://www.elanco.com/privacy.aspx" target="_blank">Privacy Statement</a></li>
+                        <li><a href="https://www.elanco.com/terms.aspx" target="_blank">Terms of Use</a></li>
+                        <li><a href="https://www.elanco.com/contact.aspx" target="_blank">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-logo-panel">
+                    <div><img class="ethicon-logo img-responsive" src="img/logo.png" alt="Ethicon" /></div>
+                    <div><img src="img/elanco-logo.png" alt="Elanco" class="elanco-logo img-responsive" /></div>
+                </div><!-- .footer-part-5 end -->
+            </div><!--.container end-->
+        </footer>
+	</body>
+</html>

@@ -1,0 +1,536 @@
+@font-face {
+    font-family: helveticaNeue;
+    src: url(../fonts/helveticaneueltstd-roman-webfont.eot); /* IE9 Compat Modes */
+    src: url(../fonts/helveticaneueltstd-roman-webfont.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */       
+       url(../fonts/helveticaneueltstd-roman-webfont.woff) format('woff'), /* Pretty Modern Browsers */
+       url(../fonts/helveticaneueltstd-roman-webfont.ttf)  format('truetype');          
+}
+@font-face {
+    font-family: latoRegular;
+    src: url(../fonts/Lato-Regular.eot); /* IE9 Compat Modes */
+    src: url(../fonts/Lato-Regular.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */       
+       url(../fonts/Lato-Regular.woff) format('woff'), /* Pretty Modern Browsers */
+       url(../fonts/Lato-Regular.ttf)  format('truetype');          
+}
+
+
+/*General CSS*/
+body{
+	font-size:16px;
+	line-height: 1.4;
+    font-family: helveticaNeue;
+}
+p {
+    margin:0;
+}
+a {
+    text-decoration:none;
+}
+a:link{
+        text-decoration:none;
+}
+
+a:visited,a:hover,a:active  {
+    text-decoration:none ;
+}
+.row{
+    margin:0;
+}
+.container {
+    width:960px;    
+    padding:0;
+    box-sizing: border-box;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding:0;
+}
+/*promotional offer css start*/
+
+.promotional-offers{
+    text-transform: uppercase;
+    background:#ec0928;
+    color:white;    
+    padding:21px 0;
+    text-align: center;
+    position:relative;
+    font-size:21px;    
+}
+.promotional-offers p:first-child{
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.promotional-offers a{
+    color:white;
+    border-bottom:2px solid white;
+}
+.close-button{
+    position: absolute;
+    left: 70%;
+    top: 34%;
+}
+.close-button img{
+    cursor:pointer;
+}
+/*promotional offer css end*/
+
+/*header css start*/
+header{
+    padding:35px 0px 35px ;
+    text-align: center;
+    font-family: latoRegular;
+}
+header .logo-wrapper img{
+    margin:0 auto;
+}
+header .navigation-menu-wrapper{
+    margin-top:40px;
+}
+header .navigation-menu-wrapper ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:table;
+    width:100%;
+}
+header .navigation-menu-wrapper ul li{
+    width:33.33%;
+    display:table-cell;
+}
+.nav-link-wrapper a{
+    color:black;
+    text-transform:uppercase;
+    font-size:16px;
+  
+}
+.nav-link-wrapper a:hover{
+    color:#ed0928;
+}
+.nav-link-wrapper>span{
+      padding-bottom: 5px;
+    border-bottom: 2px solid #ed0928;
+    font-weight: bold;
+    display:inline-block;
+}
+
+/*Header CSS end*/
+
+/*Footer CSS start*/
+footer{
+    text-align:left;
+    padding:70px 0;
+    color:#545454;
+    background: #ebebeb;    
+}
+footer ol{
+    padding:0px 0px 0px 16px;
+    margin:0;
+}
+.references-heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+footer .container>div{
+    margin-bottom:40px;
+}
+footer .container .footer-logo-panel{
+    margin:0;
+}
+footer .container:nth-child{
+    margin-bottom:0;
+}
+.footer-links-panel ul{
+    margin:0;
+    padding:0;
+}
+.footer-links-panel ul li{
+    display:inline-block;
+    padding-right:25px;
+}
+.footer-links-panel ul li:last-child{
+    padding-right:0;
+}
+.footer-links-panel ul li a{
+    color: #555555;
+    border-bottom:2px solid #aaaaaa;
+}
+.footer-links-panel ul li a:hover,.footer-links-panel ul li a:active{
+    color: black !important;
+    border-bottom:2px solid black;
+}
+.footer-logo-panel{
+    width: 100%;
+    display: table;
+}
+.footer-logo-panel>div {
+    display: table-cell;
+    width: 50%;
+}
+footer .elanco-logo{
+    float:right;
+}
+/*Footer CSS End*/
+/*Home page CSS start*/
+.banner-container {    
+    background: #ec0928 url("../img/home-page-banner.jpg") no-repeat center bottom;
+     background-size: 100% 100%;
+     padding:330px 0px 150px 0px;
+     color:white;    
+}
+.banner{
+    padding: 0px 436px 0px 0px;
+}
+.banner-head{
+    font-size: 43px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+     line-height: 1.1;
+     font-family: latoRegular;
+     margin-bottom: 5px;
+     letter-spacing:4px;
+}
+.banner-text{
+    font-size: 17px;
+  line-height: 1.4;
+}
+.banner-container img{
+    width:100%;
+}
+.products-section-container{
+    padding:60px 0;
+}
+.slash{
+    color:#e61239;
+}
+.section-heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom:50px;
+    font-family: latoRegular;
+    font-style: italic;
+    font-size:20px;
+    letter-spacing:2px;
+}
+.section-content .main-text{
+    color:#e61239;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-size:34px;
+    letter-spacing: 2px;
+    font-family: latoRegular;
+}
+.prod-text{
+    padding-right:35%;
+}
+.needle-image-container{
+    margin: 70px 0px 70px 20%;
+    box-sizing:border-box;
+    height:170px;
+    position: relative;   
+
+}
+.needle-image{
+    background: url(../img/needle.jpg) no-repeat;
+    background-size: 100% 100%;
+    height:170px;
+}
+.needle-point{
+    position:absolute;
+     
+}
+.point-a{
+    top: 0%;
+    left: -4%;
+    width:44px;
+}
+.point-b{
+    top: 50%;
+    left: 16%;
+}
+.point-c{
+    top: 9%;
+    left: 30%;
+}
+.point-a.needle-point>div {
+    float: left;
+}
+.circle-container{
+    vertical-align: middle;
+}
+
+.point-circle{
+    text-transform: uppercase;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+
+}
+.point-outer-circle{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 1px 2px;
+
+}
+.popup-container{
+    position: absolute; 
+    top: -50%;
+ 
+}
+.popup-container>div{
+    float:left;
+}
+.point-popup {
+    background: #353d41;
+    color: white;
+    padding: 20px;    
+    line-height: 1.1;
+
+}
+.popup-content p{
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+.point-popup ul{
+    margin:0;
+    padding:0 0 0 20px;
+    font-size:15px;
+}
+.point-popup ul li{
+    margin-bottom:10px;
+}
+.popup-image {
+    float: left;
+    width: 48%;
+    text-align: center;
+}
+.popup-c-image{
+    width:100%;
+}
+.ethicon-image{
+    margin-right:4%;
+}
+.popup-image p{
+    margin-bottom:10px;
+}
+.arrow-container{
+
+}
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;   
+  border-right:16px solid #353d41; 
+}
+.product-image{
+    min-height:277px;
+}
+.product-image img{
+    margin:0 auto;
+}
+.product-heading {
+    font-weight: bold;
+    font-family:latoRegular;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.product-details{
+    padding-right:12%;
+}
+.bottom-line{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ed0928;
+}
+.grey-line{
+     border-top: 1px solid #ebebeb;
+}
+.product-container {
+    margin-bottom: 40px;
+    padding-top: 40px;   
+}
+.view-all-container {
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px solid #ed0928;
+    padding: 7px 24px;
+    font-weight: bold;
+}
+.formulary-container{
+    color:white;
+    background:grey;
+    padding:60px 0;
+}
+.carousel{
+    padding: 50px 0 25px;
+    height: 240px;
+    background-color: white;
+    background-image: none;
+    color: black;
+    margin-top:50px;
+}
+.carousel-control{
+    background: white !important;
+    opacity:1;
+    width:5%;
+}
+.carousel-inner{
+    padding: 0 10%;
+    text-align:center;
+    font-weight: bold;
+    font-size: 22px;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+.answer-options-list{
+    margin-top:30px;
+}
+.option{
+    display:inline-block;
+    margin-right: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.option:last-child{
+    margin-right:0;
+}
+.option span{
+    vertical-align: middle;
+}
+/*Home page CSS end*/
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .container{
+        width:700px;
+    }
+    .prod-text{
+        padding-right:10%;
+    }
+    
+}
+/*Rsponsive CSS for Mobiles*/
+@media screen and (max-width:767px){
+	body {
+    	font-size: 15px;
+	}
+    .container{
+        width:100%;
+        padding:0 15px;
+    }
+    .promotional-offers{
+        font-size: 14px;
+    }
+    .close-button {
+        left:initial;
+        right: 3%;        
+    }
+    .nav-link-wrapper a{       
+        font-size:12px;
+    }
+    header .navigation-menu-wrapper ul li {
+       /* width: 28%;*/
+        padding-right: 8%;
+    }
+     header .navigation-menu-wrapper ul li:last-child{
+        padding-right:0;
+     }
+     footer{
+        padding:40px 0;
+     }
+     footer .container>div {
+        margin-bottom: 30px;
+    }
+    .footer-links-panel ul li{
+        padding-right:5px;
+        font-size:15px;
+    }
+    .footer-logo-panel .ethicon-logo {
+         width: 170px;
+        height: 40px;
+    }
+    .footer-logo-panel .elanco-logo {
+    width: 100px;
+    height: 42px;
+    }
+    .banner-container {    
+       background: #ec0928 url("../img/home-page-banner-mobile.jpg") no-repeat center bottom;
+       padding: 230px 0 100px;
+       background-size: 100% 100%;
+    }
+    .banner{
+        padding:0;
+    }
+    .banner-head{
+        font-size: 24px;
+    }
+
+    .prod-text{
+        padding-right:0;
+    }
+    .needle-image-container{
+        margin: 60px 0px 60px 50px;
+    }   
+    .needle-image{
+        background: url(../img/needle-mobile.jpg) no-repeat;
+        background-size: 100% 100%;
+        height:170px;
+    }
+    .point-a {
+        left: -8%;
+    }
+    .point-b {
+        left: 40%;
+    }
+    .point-c{ 
+        left: 80%;
+    }
+    .product-details {
+    margin-left: 20px;
+    }
+    .view-all-container{
+        padding: 7px 62px;
+    }
+    .center-align{
+        text-align: center;
+    }
+    .products-section-container{
+        padding:30px 0px;
+    }
+    .section-heading{
+        margin-bottom:30px;
+    }
+    .section-content .main-text{
+        font-size:24px;
+    }
+    .product-heading{
+        font-size:14px;
+    }
+    .product-container{
+        margin-bottom:0;
+    }
+}
+@media screen and (max-width: 767px) and (orientation:landscape){
+	header .navigation-menu-wrapper ul li:first-child{
+        margin-top:0px;
+    }
+    .product-details {
+        margin-left: 10%;
+    }
+    .banner{
+        padding:0 20px 0px 0px;
+    }
+}
+/*Responsive CSS for IPAD*/
+
